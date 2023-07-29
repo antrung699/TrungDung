@@ -1,0 +1,18 @@
+[{"logicalName":"ntd_formline","attributes":["ntd_devicesmulti","ntd_unit","ntd_group"]}]
+
+
+custom control: tmy_grid.PAGridCustomizer
+
+EnvVairable: Grid Customizer
+
+----
+Sample for 1 entity and multiple field: [{"logicalName":"ntd_formline","attributes":["ntd_devicesmulti", "ntd_unit", "ntd_group"]}]
+More than 1 entity will be:
+
+[
+
+{"logicalName":"ntd_formline","attributes":["ntd_devicesmulti", "ntd_unit", "ntd_group"]},
+
+{"logicalName":"ntd_formline","attributes":["ntd_devicesmulti", "ntd_unit", "ntd_group"]}
+
+]
